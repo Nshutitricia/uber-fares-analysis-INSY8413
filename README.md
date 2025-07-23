@@ -211,7 +211,7 @@ To support dynamic filtering, aggregation, and custom metrics in the Power BI da
 - Time-based measures such as peak hour identification and seasonal categorization.
 - Custom measures for calculating average fare by time segments and geographic zones.
 
-![DAX Formulas Screenshot](./screenshots/DAX.png.png)  
+![DAX Formulas Screenshot](./screenshots/DAX.png)  
 *Figure X: Sample DAX formulas used in the dashboard.*
 
 
@@ -305,4 +305,4 @@ The interactive dashboard showcases:
 - Impact of weather and seasonality on ride volume and fare amounts  
 - Geographic maps displaying ride density and hotspots
 
-📁 See: [`Uber_Fare_Dashboard.pbix`](Nshuti Tricia 27253.pbix)
+📁 See: [`Uber Dashboard`]( ./Nshuti%20Tricia%2027253.pbix)
