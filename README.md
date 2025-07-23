@@ -40,8 +40,8 @@ The raw dataset was initially loaded into Python using **Pandas**. The data unde
 - **Duplicate Removal**: All duplicate rows were dropped to avoid overrepresentation in analysis.
 **Export Cleaned Data:** The cleaned dataset was exported as a CSV file (`./data/uber_cleaned.csv`) to enable smooth import into Power BI for further analysis.
 
-![Data Loading Summary](./screenshots/dataLoading.png)
-![Data Cleaning Summary](./screenshots/dataCleaning.png)
+![Data Loading Summary](./screenshots/1.dataLoading.png)
+![Data Cleaning Summary](./screenshots/2.dataCleaning.png)
 
 ### Tools & Techniques
 - **Python**: For data loading, cleaning, and statistical analysis (`pandas`, `numpy`, `matplotlib`, `seaborn`)
@@ -76,7 +76,7 @@ Before building the Power BI dashboard, an in-depth exploratory data analysis wa
 
 > *These insights shaped the design of the Power BI dashboard and guided which visualizations to include to tell a compelling data story.*
 
-![Exploratory Data Analysis](./screenshots/EDA.png)
+![Exploratory Data Analysis](./screenshots/3.EDA.png)
 
 ## Feature Engineering:
 
@@ -164,22 +164,22 @@ To build a meaningful and interactive Power BI dashboard, several analytical sta
 ### Fare Patterns Analysis  
 Understanding how fares vary by hour, day, and month helped identify pricing trends and peak fare times.
 
-![Fare Patterns Screenshot](./screenshots/farePatterns.png)  
+![Fare Patterns Screenshot](./screenshots/5.farePatterns.png)  
 *Figure 1: Fare distribution across different time intervals.*
 
 ### Ride Volume Exploration  
 Analyzing ride counts by time periods revealed high-demand hours and days, critical for dynamic dashboard filtering.
 
-![Ride Volume Screenshot](./screenshots/ridePatterns.png)  
+![Ride Volume Screenshot](./screenshots/6.ridePatterns.png)  
 *Figure 2: Ride volumes by hour and day.*
 
 ### Seasonal and Weather Analysis  
 Exploration of seasonal variations and weather impact provided insights into demand fluctuations and fare changes throughout the year.
 
-![Seasonal Trends Screenshot](./screenshots/seasonalTrends.png)  
+![Seasonal Trends Screenshot](./screenshots/7.seasonalTrends.png)  
 *Figure 3: Seasonal ride demand and fare variations.*
 
-![Weather Impacts Screenshot](./screenshots/weatherImpacts.png)  
+![Weather Impacts Screenshot](./screenshots/8.weatherImpacts.png)  
 
 ### Uber Dashboard
 
@@ -196,7 +196,7 @@ Additional dashboard features include:
 - Interactive filters and drill-down capabilities, allowing users to explore the data at multiple granularities.  
 - Consistent and polished formatting adhering to professional design principles to ensure clarity and usability.
 
-![Uber dashboard Screenshot](./screenshots/Dashboard.png)  
+![Uber dashboard Screenshot](./screenshots/9.Dashboard.png)  
 *Figure 4: Spatial concentration of rides visualized in the Power BI dashboard.*
 
 
@@ -211,7 +211,7 @@ To support dynamic filtering, aggregation, and custom metrics in the Power BI da
 - Time-based measures such as peak hour identification and seasonal categorization.
 - Custom measures for calculating average fare by time segments and geographic zones.
 
-![DAX Formulas Screenshot](./screenshots/DAX.png)  
+![DAX Formulas Screenshot](./screenshots/10.DAX.png)  
 *Figure X: Sample DAX formulas used in the dashboard.*
 
 
