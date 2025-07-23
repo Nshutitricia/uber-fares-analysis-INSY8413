@@ -170,7 +170,7 @@ Understanding how fares vary by hour, day, and month helped identify pricing tre
 ### Ride Volume Exploration  
 Analyzing ride counts by time periods revealed high-demand hours and days, critical for dynamic dashboard filtering.
 
-![Ride Volume Screenshot](./screenshots/rideTrends.png)  
+![Ride Volume Screenshot](./screenshots/ridePatterns.png)  
 *Figure 2: Ride volumes by hour and day.*
 
 ### Seasonal and Weather Analysis  
