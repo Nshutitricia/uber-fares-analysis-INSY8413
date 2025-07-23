@@ -6,6 +6,18 @@
 **Name:** Tricia Nshuti
 **ID:** 27253
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Methodology](#methodology)
+- [EDA](#exploratory-data-analysis-eda)
+- [Feature Engineering](#feature-engineering)
+- [Analysis](#analysis)
+- [Dashboard Development](#dashboard-development-stages)
+- [Key Results](#results-key-discoveries-and-pattern-identification)
+- [Conclusion](#conclusion-summary-of-main-findings--recommendations)
+
+
+
 
 ## Introduction
 
