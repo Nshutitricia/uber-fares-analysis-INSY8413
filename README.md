@@ -40,7 +40,8 @@ The raw dataset was initially loaded into Python using **Pandas**. The data unde
 - **Duplicate Removal**: All duplicate rows were dropped to avoid overrepresentation in analysis.
 **Export Cleaned Data:** The cleaned dataset was exported as a CSV file (`./data/uber_cleaned.csv`) to enable smooth import into Power BI for further analysis.
 
-![Data Loading Summary](./screenshots/dataLoading.png)  ![Data Cleaning Summary](./screenshots/dataCleaning.png)
+![Data Loading Summary](./screenshots/dataLoading.png) 
+![Data Cleaning Summary](./screenshots/dataCleaning.png)
 
 ### Tools & Techniques
 - **Python**: For data loading, cleaning, and statistical analysis (`pandas`, `numpy`, `matplotlib`, `seaborn`)
