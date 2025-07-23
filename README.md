@@ -180,7 +180,7 @@ Mapping pickup and drop-off locations highlighted urban demand hotspots essentia
 
 The Power BI dashboard was designed to be both **interactive** and **professional**, incorporating the following key features as outlined in the project requirements:
 
-- **Distribution of fares:** Visualized using histograms and custom alternatives to box plots to illustrate fare spread and detect outliers.
+- **Distribution of fares:** Visualized using histograms and box plots to illustrate fare spread and detect outliers.
 - **Ride durations:** Analyzed over time to reveal temporal usage patterns.
 - **Time series analysis:** Highlighting temporal trends such as hourly, daily, and seasonal ride behaviors.
 - **Geographic distribution:** Detailed spatial analysis showcasing pickup and drop-off hotspots across New York City.
@@ -189,7 +189,7 @@ Additional dashboard features include:
 - Interactive filters and drill-down capabilities, allowing users to explore the data at multiple granularities.  
 - Consistent and polished formatting adhering to professional design principles to ensure clarity and usability.
 
-![Uber dashboard Screenshot](./screenshots/9-1.uberDashboard.png)  
+![Uber dashboard Screenshot](./screenshots/9-2.uberDashboard.png)  
 *Figure 4: Spatial concentration of rides visualized in the Power BI dashboard.*
 
 
