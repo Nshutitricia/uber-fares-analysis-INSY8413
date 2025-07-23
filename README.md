@@ -43,13 +43,6 @@ The raw dataset was initially loaded into Python using **Pandas**. The data unde
 ![Data Loading Summary](./screenshots/1.dataLoading.png)
 ![Data Cleaning Summary](./screenshots/2.dataCleaning.png)
 
-### Tools & Techniques
-- **Python**: For data loading, cleaning, and statistical analysis (`pandas`, `numpy`, `matplotlib`, `seaborn`)
-- **Power BI**: For building the interactive dashboard, visual storytelling, and time/geospatial analysis
-- **Statistical Techniques**:
-  - Descriptive statistics
-  - Quartile-based outlier detection
-  - Time-series and temporal segmentation
 
 
 ## Exploratory Data Analysis (EDA)
@@ -87,7 +80,7 @@ New columns were derived to enrich the dataset and support deeper insights:
 - **Seasons**: Categorized months into seasons to explore seasonal ride behavior.
 - **Export Enhanced Data:** The dataset with engineered features was saved as an enhanced CSV file (`uber_enhanced.csv`) for seamless integration into Power BI.
 
-> 📓 *For the full data cleaning process, exploratory analysis, and transformation logic, please refer to the Jupyter Notebook (`uber.ipynb`) included in this repository.*
+> *For the full data cleaning process, exploratory analysis, and transformation logic, please refer to the Jupyter Notebook (`uber.ipynb`) included in this repository.*
 
 ---
 
@@ -187,7 +180,7 @@ Mapping pickup and drop-off locations highlighted urban demand hotspots essentia
 
 The Power BI dashboard was designed to be both **interactive** and **professional**, incorporating the following key features as outlined in the project requirements:
 
-- **Distribution of fares:** Visualized through histograms and box plots to clearly show fare spread and outliers.
+- **Distribution of fares:** Visualized using histograms and custom alternatives to box plots to illustrate fare spread and detect outliers.
 - **Ride durations:** Analyzed over time to reveal temporal usage patterns.
 - **Time series analysis:** Highlighting temporal trends such as hourly, daily, and seasonal ride behaviors.
 - **Geographic distribution:** Detailed spatial analysis showcasing pickup and drop-off hotspots across New York City.
@@ -196,7 +189,7 @@ Additional dashboard features include:
 - Interactive filters and drill-down capabilities, allowing users to explore the data at multiple granularities.  
 - Consistent and polished formatting adhering to professional design principles to ensure clarity and usability.
 
-![Uber dashboard Screenshot](./screenshots/9.Dashboard.png)  
+![Uber dashboard Screenshot](./screenshots/9-1.uberDashboard.png)  
 *Figure 4: Spatial concentration of rides visualized in the Power BI dashboard.*
 
 
@@ -212,7 +205,7 @@ To support dynamic filtering, aggregation, and custom metrics in the Power BI da
 - Custom measures for calculating average fare by time segments and geographic zones.
 
 ![DAX Formulas Screenshot](./screenshots/10.DAX.png)  
-*Figure X: Sample DAX formulas used in the dashboard.*
+*Figure 5: Sample DAX formulas used in the dashboard.*
 
 
 
@@ -269,7 +262,7 @@ These findings highlight the significant impact of time, location, and seasonal 
 
 ---
 
-### 💡 Recommendations: Data-Driven Business Suggestions
+### Recommendations: Data-Driven Business Suggestions
 
 1. **Dynamic Pricing Optimization**  
    - Adjust fare multipliers during peak demand periods (Fridays, evenings) to maximize revenue while balancing supply and demand.
